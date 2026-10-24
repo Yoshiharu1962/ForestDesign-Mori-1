@@ -36,5 +36,6 @@ Arduino IDEで開発可能。
 - NeoPixel用出力コネクタ搭載。5V MAX750mAまで本ボードのみで駆動できます。
 
 # 回路図
-![森壱式改一回路図](MORI_ICHI_1_SCH.pdf)
+![森壱式改一回路図](MORI_ICHI_1_SCH.png)
+(MORI_ICHI_1_SCH.pdf)
 
