@@ -22,10 +22,10 @@ GPIOはNeoPixel専用出力を除き、全て3.3Vである。
 
 # 外観
 部品面（イメージは改一のもの）
-![[MORI_ICHI_img.png]]
+![森壱式 部品面](MORI_ICHI_img.png)
 
 ハンダ面（イメージは改一のもの）
-![[MORI_ICHI_B.png]]
+![森壱式 ハンダ面](MORI_ICHI_B.png)
 # 搭載マイコンモジュール
 ESP32-S3-WROOM-1-N16R8 を搭載。
 開発環境はESP32-S3 WROOM-1を参照のこと。
