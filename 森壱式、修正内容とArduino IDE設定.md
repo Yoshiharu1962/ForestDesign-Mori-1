@@ -176,7 +176,7 @@ Plain Text
 
 ``
 ### 実際の修正後の写真
-![[CM261023-114736001.jpg]]
+![[森壱式初版修正記録]](MORI_ICHI_retouch.jpg)
 
 ESP32-S3ではDTR/RTSからENとGPIO0を制御することで自動的にFirmware Downloadモードへ移行する。この部分はタイミングが重要。 [[docs.espressif.com]](https://docs.espressif.com/projects/esptool/en/latest/esp32s3/advanced-topics/boot-mode-selection.html)
 
