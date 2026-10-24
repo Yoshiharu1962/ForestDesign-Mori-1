@@ -74,7 +74,7 @@ Plain Text
 	USB Mode
 	Hardware CDC and JTAG
 
-`Upload Speed`は書き込み時の転送速度で、シリアルモニタの通信速度とは別設定。高速書き込みで問題が出る場合は速度を下げることがEspressifからも案内されている。 [[docs.espressif.com]](https://docs.espressif.com/projects/arduino-esp32/en/latest/guides/tools_menu.html)
+`Upload Speed`は書き込み時の転送速度で、シリアルモニタの通信速度とは別設定。高速書き込みで問題が出る場合は速度を下げることがEspressifからも案内されている。 [Espressif Arduino IDE Tools Menu](https://docs.espressif.com/projects/arduino-esp32/en/latest/guides/tools_menu.html)
 
 ---
 
@@ -172,11 +172,11 @@ Plain Text
 	自動RESET後
 	スケッチ正常起動
 
-``
-### 実際の修正後の写真
-![[森壱式初版修正記録]](MORI_ICHI_retouch.jpg)
 
-ESP32-S3ではDTR/RTSからENとGPIO0を制御することで自動的にFirmware Downloadモードへ移行する。この部分はタイミングが重要。 [[docs.espressif.com]](https://docs.espressif.com/projects/esptool/en/latest/esp32s3/advanced-topics/boot-mode-selection.html)
+### 実際の修正後の写真
+![森壱式初版修正記録](MORI_ICHI_retouch.jpg)
+
+ESP32-S3ではDTR/RTSからENとGPIO0を制御することで自動的にFirmware Downloadモードへ移行する。この部分はタイミングが重要。[Espressif Arduino IDE Tools Menu](https://docs.espressif.com/projects/arduino-esp32/en/latest/guides/tools_menu.html)
 
 ---
 
@@ -197,7 +197,7 @@ Plain Text
 	entry 0x403c88b8
 	MORI-ICHISHIKI START
 
-`SPI_FAST_FLASH_BOOT`はFlashから通常起動するモードに入っていることを示す。GPIO0をLOWにしてリセットした場合はシリアルブートローダー側へ入る。 [[docs.espressif.com]](https://docs.espressif.com/projects/esptool/en/latest/esp32s3/advanced-topics/boot-mode-selection.html)
+`SPI_FAST_FLASH_BOOT`はFlashから通常起動するモードに入っていることを示す。GPIO0をLOWにしてリセットした場合はシリアルブートローダー側へ入る。 [Espressif Arduino IDE Tools Menu](https://docs.espressif.com/projects/arduino-esp32/en/latest/guides/tools_menu.html)
 
 ---
 
@@ -239,7 +239,7 @@ Plain Text
 
 次回改版時の変更箇所拡大
 シルク「D」の左側の抵抗（黒いチップ）とコンデンサ（茶色のチップ）を追加する。
-![[森壱式改一修正箇所]](MORI_ICHI_KAI1.png)
+![森壱式改一修正箇所](MORI_ICHI_KAI1.png)
 
 ---
 
