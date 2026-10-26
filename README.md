@@ -34,6 +34,8 @@ Arduino IDEで開発可能。
 # 外部インターフェイス
 - Grove互換 I2Cコネクタ装備。 使用電圧は+3.3V。
 - NeoPixel用出力コネクタ搭載。5V MAX750mAまで本ボードのみで駆動できます。
+# pin配置図
+![pin配置図](pin配置図.png)
 
 # 回路図
 ![森壱式改一回路図](MORI_ICHI_1_SCH.png)
